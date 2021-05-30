@@ -1,9 +1,9 @@
-#Workshop AXON, CQRS en Event Sourcing.
+# Workshop AXON, CQRS en Event Sourcing.
+Finished!!!
 
+## Zorg ervoor dat lokaal maven, npm en node is geinstalleerd
 
-##Zorg ervoor dat lokaal maven, npm en node is geinstalleerd
-
-##Voorbereiding mvn 
+## Voorbereiding mvn 
 
 Als voorbereiding op de workshop hebben moeten lokaal AxonServer, MongoDB en Intellij installeren. De stappen zijn hieronder beschreven.
 
@@ -33,7 +33,7 @@ Als voorbereiding op de workshop hebben moeten lokaal AxonServer, MongoDB en Int
     * Navigeer naar **HapperGameApplication.java** (src/main/java), in deze klasse staat de main methode gedefinieerd.
     * Run **HapperGameApplication.java**, Er wordt nu een Springboot applicatie gestart die te benaderen is via [http://localhost:8094/index.html] 
         
-##Happer game
+## Happer game
 
 De Happer game is een variant op het het bekende spel Pacman. Pacman is een klassiek computerspel dat voor het eerst werd uitgebracht in 1980 als een arcadespel. 
 Het spel wordt gespeeld op een twee dimensionaal rechthoekig speelveld. Dit speelveld bestaat uit N * M vakjes. Een vakje heeft minimaal 2 en maximaal 4 buren. 
@@ -95,6 +95,3 @@ Schrijf voor dit scenario ook minimaal een unit tests in de klasse **GameAggrega
     * Verstuur dit Commando over de CommandBus tijdens de afhandeling van bovengenoemde POST request.
     * Vang dit Commando op de juiste manier af in **GameAggregate.java**. Let goed op welke bestaand event je moet emitten.
     * Zorg ervoor dat het mogelijke wordt om een gepauzeerd spel weer tot leven te roepen.
-        
-
-     
