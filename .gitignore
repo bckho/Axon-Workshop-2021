@@ -1,3 +1,8 @@
+.idea/
+.vscode/
+*.iml
+frontend/node_modules/
+frontend/build/
 target/
 pom.xml.tag
 pom.xml.releaseBackup
